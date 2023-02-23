@@ -9,7 +9,7 @@ class Config(object):
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001711211283))
     BOT_USERNAME = os.environ.get("Arymovies_bot")
-    BOT_OWNER = int(os.environ.get("aryan_kumar_10"))
+    BOT_OWNER = int(os.environ.get(""))
     DATABASE_URL = os.environ.get("DATABASE_URL")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Link Search Bot.
