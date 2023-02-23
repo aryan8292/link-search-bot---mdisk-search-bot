@@ -2,14 +2,14 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = int(os.environ.get("API_ID", 13290427))
+    API_HASH = os.environ.get("API_HASH", "c33b2f280810fc2f60a6387a4c4217f2")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5015404755:AAE58laq-OGoqxkKth7TjVzyKYBTa4zs7oc")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "LinkSearchBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001711211283)
+    BOT_USERNAME = os.environ.get("@rymovies_bot")
+    BOT_OWNER = int(os.environ.get("5079629749"))
     DATABASE_URL = os.environ.get("DATABASE_URL")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Link Search Bot.
